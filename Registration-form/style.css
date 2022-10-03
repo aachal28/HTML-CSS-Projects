@@ -1,0 +1,55 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: white;
+	font-family: verdana;
+
+}
+.form-wrapper{
+	width:350px;
+	background: #545454;
+	padding: 40px 20px;
+	box-sizing: border-box;
+	position: fixed;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+	h1{
+		text-align: center;
+		color: white;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+	input{
+		width: 100%;
+		background: none;
+		border: 1px solid white;
+		border-radius: 3px;
+		padding: 6px 15px ;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+		font-size: 15px;
+		color:white;
+	}
+
+	input[ type="button"]{
+		background: #ffde59;
+		border: 0px;
+		cursor: pointer;
+	}
+
+
+
+
+
+	
