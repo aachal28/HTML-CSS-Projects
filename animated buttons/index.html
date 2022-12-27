@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Buttons</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+	body
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    div
+    {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 40px;
+    }
+    span
+    {
+        display: block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: ease-in 0.5s;
+        padding: 20px;
+    }
+    div:nth-child(1) span
+    {
+        background: #548dff;
+    }
+    div:nth-child(2) span
+    {
+        background: #ff0057;
+    }
+    div:nth-child(3) span
+    {
+        background: #000;
+    }
+    div:nth-child(4) span
+    {
+        background: #ffc107;
+    }
+    .fa
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 13px;
+        color: white;
+        transition: 0.5s;
+    }
+    div:nth-child(1):hover span
+    {
+        background: #fff;
+        box-shadow: 0 0 0 1000px #548dff;
+    }
+    div:nth-child(2):hover span
+    {
+        background: #fff;
+        box-shadow: 0 0 0 800px #ff0057;
+        mix-blend-mode: saturation;
+    }
+    div:nth-child(3):hover span
+    {
+        background: #fff;
+        box-shadow: 0 0 0 800px #000;
+        mix-blend-mode: saturation;
+    }
+    div:nth-child(4):hover span
+    {
+        background: #fff;
+        box-shadow: 0 0 0 1000px #ffc107;
+        mix-blend-mode: saturation;
+    }
+    div:hover .fa-user
+    {
+        color: #548dff;
+        transition: 0.5s;
+    }
+    div:hover .fa-heart
+    {
+        color: #ff0057;
+        transition: 0.5s;
+    }
+    div:hover .fa-share
+    {
+        color: #000;
+        transition: 0.5s;
+    }
+    div:hover .fa-comments
+    {
+        color: #ffc107;
+        transition: 0.5s;
+    }
+</style>
+</head>
+<body>
+	<div><span><i class="fa fa-user fa-3x" aria-hidden="true"></i></span></div>
+	<div><span><i class="fa fa-heart fa-3x" aria-hidden="true"></i></span></div>
+	<div><span><i class="fa fa-share fa-3x" aria-hidden="true"></i></span></div>
+	<div><span><i class="fa fa-comments fa-3x" aria-hidden="true"></i></span></div>
+</body>
+</html>
