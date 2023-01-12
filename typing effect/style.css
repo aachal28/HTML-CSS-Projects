@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0e0e0e;
+}
+h1{
+	color:#f4bf04;
+	font-size: 70px;
+	font-family: sans-serif;
+	overflow: hidden;
+	width: 0px;
+	white-space: nowrap;
+	margin: 20% auto;
+	animation: text 10s steps(22) infinite alternate;
+	border-right: 9px solid #545454;
+}
+@keyframes text{
+	0%{
+		width: 0px;
+	}
+	50%{
+		width: 500px;
+	}
+}
