@@ -1,0 +1,33 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.container{
+
+    max-width: 1200px;
+    margin:5% 25%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    margin: 5px;
+    float: left;
+    width: 300px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+
+}
+.desc{
+    padding: 5px;
+    text-align: center;
+}
+
